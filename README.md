@@ -7,7 +7,6 @@ Integrantes:
 Amaro, Gabriel
 Cualina, Noelia
 Godoy, María
-Herrera, Carla
 Jaime, Gustavo
 Nievas, Liliana
 Peña, Sandra
