@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROD OLIVAREÑOS</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- box iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+    <!-- icono de pestaña -->
+    <link rel="shortcut icon" href="images/icono1.png">
+    <!-- Link Swiper's - Deslizador - CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="login.js" defer></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- nav -->
+        <div class="nav">
+            <!-- logo -->
+            <a href="web.html" class="logo"><img src="images/logo.jpg"></a>
+            <!-- nav links -->
+            <div class="navbar">
+                <li><a href="index.html" class="nav-link">INICIO</a></li>
+                <li><a href="product.html" class="nav-link">PRODUCTOS</a></li>
+                <li><a href="price.html" class="nav-link">PRECIOS</a></li>
+                <li><a href="contact.html" class="nav-link">CONTACTO</a></li>
+            </div>
+            <!-- menu de hamburguesa -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact" id="contact">
+        <!-- contactos -->
+        <div class="contact-text">
+            <h2 class="contact-title">Ya tienes una cuenta? Ingresa!</h2>
+            <P>Eres parte de nuestra comunidad Olivareña.</P>
+            <p></p>
+        </div>
+
+        <!-- aca va el div -->
+
+            <div class="form">
+            <h4>Ingresa a tu cuenta</h4>
+            <div class="fila-form">
+                <form class="form-signin" action="/login" id="login-form" method="POST">
+
+                <div class="form-floating">
+                    <label for="username">Usuario</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Nombre de Usuario" required>
+
+                </div>
+                <div class="form-floating">
+                    <label for="password">Contraseña</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required>
+
+                </div>
+                <button class="btn" type="submit">Iniciar Sesión</button>
+
+                </form>
+            </div>
+
+            <div class="reset-password">
+                <h3 style="color:white">Todavia no tenes una cuenta?</h3> - <a href="register.html"><h2>Registrate</h2></a>
+            </div>
+            <div class="reset-password">
+                <a style="color:white " href="#">Olvidé mi contraseña</a>
+            </div>
+
+        <main>
+
+        </main>
+
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <div class="footer container">
+
+        <div class="footer-box">
+            <h2 class="footer-title">COMPAÑÍA</h2>
+            <a href="#">Contáctenos</a>
+            <a href="#">Términos de Servicios</a>
+            <a href="#">Política de Privacidad</a>
+        </div>
+        <div class="footer-box">
+            <h2 class="footer-title">SOPORTE</h2>
+            <a href="#">Envío un boleto</a>
+            <a href="#">Chat Online</a>
+            <a href="#">Estado de los Servicios</a>
+        </div>
+        <div class="footer-box">
+            <h2 class="footer-title">PRODUCTO TOP</h2>
+            <a href="#">Sitio Web Gestionado</a>
+            <a href="#">Servicio de Marketing</a>
+            <a href="#">Activos de Marca</a>
+        </div>
+
+        <div class="footer-box">
+            <a href="web.html" class="logo"><img src="images/logo3.jpg"></a>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </div>
+
+    </div>
+    <!-- copyright -->
+    <div class="copyright container">
+        <p>Copyright ©2023 Todos los Derechos Reservados | LOS CARPINCHOS™</p>
+        <div class="pagos">
+            <i class="bx bxl-visa"></i>
+            <i class="bx bxl-mastercard"></i>
+            <i class="bx bxl-paypal"></i>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- link JS -->
+    <script src="s/jquery-3.1.1.min.js"></script>
+    <script src="login.js"></script>
+    <script src="main.js"></script>
+
+
+
+</body>
+</html>

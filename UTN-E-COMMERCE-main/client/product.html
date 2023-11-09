@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROD OLIVAREÑOS</title>
+    <!-- link CSS -->
+       <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+    <!-- icono de pestaña -->
+    <link rel="shortcut icon" href="images/icono1.png">
+    <!-- Link Swiper's - Deslizador - CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+ <script src="https://sdk.mercadopago.com/js/v2"></script>
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <!-- nav -->
+        <div class="nav" id="product" >
+            <!-- logo -->
+            <a href="index.html" class="logo"><img src="images/logo.jpg"></a>
+            <!-- nav links -->
+            <div class="navbar"id="product">
+                <li><a href="index.html" class="nav-link">INICIO</a></li>
+
+                <li><a href="product.html" class="nav-link">TIENDA</a></li>
+                <li><a href="price.html" class="nav-link">OFERTAS</a></li>
+                <li><a href="contact.html" class="nav-link">CONTACTO</a></li>
+                <li><a href="login.html" class="nav-link">LOGIN</a></li>
+            </div>
+
+        </div>
+    </header>
+
+<section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- slide 1 -->
+            <div class="swiper-slide">
+                <div class="home-slide">
+                    <img src="images/olivo3.jpg" alt="" class="slide-img">
+                    <div class="home-overlay"></div>
+                    <div class="home-text container">
+                        <h1 class="slide-title">BIENVENIDOS A NUESTRA TIENDA</h1>
+                        <p class="slide-descrip">
+                            Producción de aceite de Oliva Extra Virgrn.
+                            Nos dedicamos a comercializar productos 100%
+                            Naturales y Regionales.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide">
+                <div class="home-slide">
+                    <img src="images/olivo1.jfif" alt="" class="slide-img">
+                    <div class="home-overlay"></div>
+                    <div class="home-text container">
+                        <h1 class="slide-title">PRODUCTORES OLIVAREÑOS</h1>
+                        <p class="slide-descrip">
+                            Está enfocado en dar a conocer los productos
+                            regionales de Mendoza, apoyando a los pequeños
+                            productores locales.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- slide 3 -->
+            <div class="swiper-slide">
+                <div class="home-slide">
+                    <img src="images/aceite3.jpg" alt="" class="slide-img">
+                    <div class="home-overlay"></div>
+                    <div class="home-text container">
+                        <h1 class="slide-title">PRODUCTORES OLIVAREÑOS</h1>
+                        <p class="slide-descrip">
+                            Te invitamos a explorar la tradición y el sabor
+                            único de nuestros productos, directamente desde
+                            los olivares a tu mesa
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- slide 4 -->
+            <div class="swiper-slide">
+                <div class="home-slide">
+                    <img src="images/olivo3.jpg" alt="" class="slide-img">
+                    <div class="home-overlay"></div>
+                    <div class="home-text container">
+                        <h1 class="slide-title">PRODUCTORES OLIVAREÑOS</h1>
+                        <p class="slide-descrip">
+                            Nuestro objetivo es educar sobre la importancia de
+                            apoyar la producción local y sostenible.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+
+
+
+
+
+
+
+   <!-- productos -->
+    <section class="service container" id="product">
+
+
+        <!-- contenido productos -->
+        <div class="product">
+
+    <div class="card-products-container card-products" id="shopContent">
+
+    </div>
+
+
+    <!--cart-btn-->
+    <div class="cart-btn" id="cart-btn">🛒</div>
+    <!--cart counter-->
+    <span class="cart-counter" id="cart-counter">0</span>
+
+    <!--modal-->
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal-container" id="modal-container"></div>
+
+
+  </div>
+            </div>
+
+
+
+
+</section>
+    <!-- footer -->
+    <div class="footer container">
+
+        <div class="footer-box">
+            <h2 class="footer-title">COMPAÑÍA</h2>
+            <a href="#">Contáctenos</a>
+            <a href="#">Términos de Servicios</a>
+            <a href="#">Política de Privacidad</a>
+        </div>
+        <div class="footer-box">
+            <h2 class="footer-title">SOPORTE</h2>
+            <a href="#">Envío un boleto</a>
+            <a href="#">Chat Online</a>
+            <a href="#">Estado de los Servicios</a>
+        </div>
+        <div class="footer-box">
+            <h2 class="footer-title">PRODUCTO TOP</h2>
+            <a href="#">Sitio Web Gestionado</a>
+            <a href="#">Servicio de Marketing</a>
+            <a href="#">Activos de Marca</a>
+        </div>
+
+        <div class="footer-box">
+            <a href="web.html" class="logo"><img src="images/logo3.jpg"></a>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </div>
+
+    </div>
+    <!-- copyright -->
+    <div class="copyright container">
+        <p>Copyright ©2023 Todos los Derechos Reservados | LOS CARPINCHOS™</p>
+        <div class="pagos">
+            <i class="bx bxl-visa"></i>
+            <i class="bx bxl-mastercard"></i>
+            <i class="bx bxl-paypal"></i>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="1273324264-f92cada3-65b7-4a53-a55b-af7cfb015eb6" data-source="button">
+</script>
+    <!-- link JS -->
+    <script src="main.js"></script>
+<script src="./js/products.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/cart.js"></script>
+<script src="./js/script.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+</body>
+</html>

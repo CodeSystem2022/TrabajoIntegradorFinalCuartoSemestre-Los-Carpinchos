@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROD OLIVAREÑOS</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- box iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+    <!-- icono de pestaña -->
+    <link rel="shortcut icon" href="images/icono1.png">
+    <!-- Link Swiper's - Deslizador - CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="login.js" defer></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="register.js" defer></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- nav -->
+        <div class="nav">
+            <!-- logo -->
+            <a href="web.html" class="logo"><img src="images/logo.jpg"></a>
+            <!-- nav links -->
+            <div class="navbar">
+                <li><a href="index.html" class="nav-link">INICIO</a></li>
+                <li><a href="product.html" class="nav-link">PRODUCTOS</a></li>
+                <li><a href="price.html" class="nav-link">PRECIOS</a></li>
+                <li><a href="contact.html" class="nav-link">CONTACTO</a></li>
+                <li><a href="login.html" class="nav-link">LOGIN</a></li>
+            </div>
+            <!-- menu de hamburguesa -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact" id="contact">
+        <!-- contactos -->
+        <div class="contact-text">
+            <h2 class="contact-title">No tienes una cuenta? Registrate!</h2>
+            <P>Serás parte de nuestra comunidad Olivareña.</P>
+            <p></p>
+        </div>
+
+        <!-- aca va el div -->
+
+            <div class="form">
+
+            <h4>Crear cuenta</h4>
+
+            <div class="fila-form">
+                <form action="/registrar" method="POST" id="register-form">
+                <!-- campos del formulario -->
+                <input type="text" id="user" placeholder="Nombre de Usuario" required>
+                <input type="email" id="email" placeholder="Correo Electronico" required>
+                <input type="password" id="password" placeholder="Contraseña" required>
+                <button type="submit" class="btn">Registrarse</button>
+                <p class="error escondido">Error al Registrarse</p>
+                </form>
+                <p>Crea tu cuenta para ingresar! - <a href="register.html"></a></p>
+            </div>
+
+
+        <main>
+
+
+        </main>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- footer -->
+    <div class="footer container">
+
+        <div class="footer-box">
+            <h2 class="footer-title">COMPAÑÍA</h2>
+            <a href="#">Contáctenos</a>
+            <a href="#">Términos de Servicios</a>
+            <a href="#">Política de Privacidad</a>
+        </div>
+        <div class="footer-box">
+            <h2 class="footer-title">SOPORTE</h2>
+            <a href="#">Envío un boleto</a>
+            <a href="#">Chat Online</a>
+            <a href="#">Estado de los Servicios</a>
+        </div>
+        <div class="footer-box">
+            <h2 class="footer-title">PRODUCTO TOP</h2>
+            <a href="#">Sitio Web Gestionado</a>
+            <a href="#">Servicio de Marketing</a>
+            <a href="#">Activos de Marca</a>
+        </div>
+
+        <div class="footer-box">
+            <a href="web.html" class="logo"><img src="images/logo3.jpg"></a>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </div>
+
+    </div>
+    <!-- copyright -->
+    <div class="copyright container">
+        <p>Copyright ©2023 Todos los Derechos Reservados | LOS CARPINCHOS™</p>
+        <div class="pagos">
+            <i class="bx bxl-visa"></i>
+            <i class="bx bxl-mastercard"></i>
+            <i class="bx bxl-paypal"></i>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- link JS -->
+    <script src="main.js"></script>
+
+</body>
+</html>
