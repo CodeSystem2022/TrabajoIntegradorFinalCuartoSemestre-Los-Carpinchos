@@ -1,7 +1,8 @@
-<p><b>Trabajo Integrador Final Cuarto Semestre 2023</b></p>
-<p>Repositorio Original: https://github.com/GUSS1977/UTN-E-COMMERCE</p>
+<h3><p><b>Trabajo Integrador Final - Cuarto Semestre 2023</b></p></h3>
+<p><b>Ecommerce Productores Olivareños</b></p>
 
-Ecommerce Productores OLivareños
+<p>Repositorio Original: https://github.com/GUSS1977/UTN-E-COMMERCE</p>
+<p> Tablero Scrum: https://github.com/orgs/CodeSystem2022/projects/2022/views/1</p>
 
 <b>Integrantes:</b><br><br>
 :mens: Amaro, Julio Gabriel<br>
@@ -13,3 +14,5 @@ Ecommerce Productores OLivareños
 :mens: Rivarola, Jonathan<br>
 :mens: Vaccarezza, Luis<br>
 <br><br>
+
+<p>Copyright ©2023 Todos los Derechos Reservados | LOS CARPINCHOS™</p>
