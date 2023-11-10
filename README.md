@@ -1,4 +1,5 @@
 <h3><p><b>Trabajo Integrador Final - Cuarto Semestre 2023</b></p></h3>
+<p><b>Equipo: Los Carpinchos</b></p>
 <p><b>Ecommerce Productores Olivareños</b></p>
 
 <p>Repositorio Original: https://github.com/GUSS1977/UTN-E-COMMERCE</p>
